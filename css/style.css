@@ -1,0 +1,179 @@
+body{
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    background-color: #f2f3f5;
+  
+  }
+  /* HEADER START */
+  
+  /* .aside-container{
+   background-color: #0b0b31;
+   color: #a9a9a9;
+  } */
+    
+    .header-content li {
+      background-color: #0b0b31;;
+      border-radius: 10%;
+      border: none;
+    }
+    
+    .header-content a{
+      text-decoration: none;
+      color: white;
+      font-size: 2vw;
+    }
+  
+            /* W3 Slideshow start 
+  I adapted this to fit a flexbox layout and got rid of the pointers so that is just dots to change the image
+  */
+  
+  .slideshow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+    }
+    
+    .mySlides {
+      display: none;
+      
+    }
+    
+    .dot-container {
+      display: flex;
+      margin: .5vw 0;
+    
+    }
+    
+    .dot {
+      cursor: pointer;
+      height: 22px;
+      width: 22px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    .active {
+        display: block;
+    }
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+            /* W3 Slideshow Styling end */
+  
+  
+  /* END HEADING */
+  
+  /* Image differing  */
+  
+    .reversed{
+      -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    }
+    .upside-down{
+      -webkit-transform: scaleY(-1);
+      transform: scaleY(-1);
+    }
+  
+    /* HEADER END */
+  
+    /* MORE Button */
+    .more-bttn{
+      color: white;
+      font-size: medium;
+      background-color:#213349 ;
+      border-radius: 10%;
+      border: none;
+      text-decoration: none;
+    }
+  
+    /* SECTIONS */
+  
+    .section-container{
+      color: white;
+      background: linear-gradient(to left top, #0f1821 54%, #1c2d40 );
+    
+    }
+  
+  
+  .section-container p{
+    color: #a9a9a9;
+  }
+
+  /* Services Section */
+  
+  .services ul{
+    list-style-type: "⚙️";
+    }
+  
+  /* Opportunities Section */
+  .opportunities ul{
+  list-style-type: "🗨️"; 
+  }
+  
+  
+  /* News Section */
+  
+  .news h2{
+    font-size: 3.2vw;
+  
+  }
+  
+  .news h4{
+    font-size: 1.3vw;
+  }
+  
+   .date-block{
+    background-color: #be8542;
+    border-radius: 25%;
+    
+   }
+  
+   .date-block p {
+    color: white;
+    font-size: 1.3vw;
+    font-stretch:condensed;
+    -webkit-transform:scale(.5,1.5);
+    transform: scale(.6,1.6);
+    font-weight: bold;
+  }
+  
+  .day p{
+    font-size: 3.25vw;
+  }
+  
+  
+  .news-section-content > * {
+    margin: .2vw 0; 
+  }
+  
+  .special-block-1{
+    background-color: #bc6142;
+  }
+  
+  .special-block-2{
+    background-color: #bd425e;
+  }
+  
+  
+  /* FOOTER START*/
+  footer{
+    background-color: #0e1e31;
+    color: white;
+  }
+
+  
+  /* FOOTER END */
